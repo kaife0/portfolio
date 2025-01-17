@@ -79,51 +79,71 @@ export const assets = {
 export const workData = [
   {
     title: "Frontend project",
-    description: "Web Design",
-    bgImage: "/work-1.png",
-  },
-  {
-    title: "Geo based app",
-    description: "Mobile App",
-    bgImage: "/work-2.png",
-  },
-  {
-    title: "Photography site",
-    description: "Web Design",
+    description: "Food Delivery website",
     bgImage: "/work-3.png",
+    link: "https://yourfoodpartner.netlify.app/",
+
+
   },
   {
-    title: "UI/UX designing",
-    description: "UI/UX Design",
-    bgImage: "/work-4.png",
+    title: "Frontend project",
+    description: "Day planner",
+    bgImage: "/work-2.png",
+    link: "https://ktaskplanner.netlify.app/",
+    
   },
+  {
+    title: "web design",
+    description: "Tic Tac Toe game",
+    bgImage: "/work-4.png",
+    link: "https://mygamereactjs.netlify.app/",
+  },
+  {
+    title: "frontend project",
+    description: "Shopping list",
+    bgImage: "/work-1.png",
+    link: "https://mygroceryplanner.netlify.app/",
+  },
+
 ];
 
 export const serviceData = [
   {
     icon: assets.web_icon,
-    title: "Web design",
-    description: "Web development is the process of building, programming...",
+    title: "Custom Web Development",
+    description: "Responsive and interactive websites using HTML, CSS, JavaScript, React.js, and Node.js.",
     link: "",
   },
-  {
-    icon: assets.mobile_icon,
-    title: "Mobile app",
-    description:
-      "Mobile app development involves creating software for mobile devices...",
-    link: "",
-  },
+ 
   {
     icon: assets.ui_icon,
-    title: "UI/UX design",
+    title: "Frontend Development",
     description:
-      "UI/UX design focuses on creating a seamless user experience...",
+      "Modern UI/UX design with React.js and seamless user experiences.",
     link: "",
   },
   {
     icon: assets.graphics_icon,
-    title: "Graphics design",
-    description: "Creative design solutions to enhance visual communication...",
+    title: "Website Optimization",
+    description: "Performance tuning for faster and optimized websites.",
+    link: "",
+  },
+  {
+    icon: assets.web_icon,
+    title: "Bug Fixing & Technical Support",
+    description: "Troubleshooting and resolving web-based system issues.",
+    link: "",
+  },
+  {
+    icon: assets.web_icon,
+    title: "API Integration",
+    description: "Efficient RESTful API development and integration.",
+    link: "",
+  },
+  {
+    icon: assets.web_icon,
+    title: "SEO Optimization",
+    description: "Search engine-friendly website development to improve online visibility",
     link: "",
   },
 ];
@@ -133,7 +153,7 @@ export const infoList = [
     icon: assets.code_icon,
     iconDark: assets.code_icon_dark,
     title: "Languages",
-    description: "HTML, CSS, JavaScript React Js, Next Js",
+    description: "HTML, CSS, JavaScript React Js, Next Js,C,C++,Java",
   },
   {
     icon: assets.edu_icon,
@@ -145,7 +165,7 @@ export const infoList = [
     icon: assets.project_icon,
     iconDark: assets.project_icon_dark,
     title: "Projects",
-    description: "Built more than 5 projects",
+    description: "Built more than 3 projects",
   },
 ];
 

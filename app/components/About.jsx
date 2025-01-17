@@ -72,7 +72,7 @@ const About = ({isDarkMode}) => {
               >
                 <Image src={isDarkMode ? iconDark : icon} alt={title} className="w-7 mt-3" />
                 <h3 className="my-4 font-semibold text-gray-700 dark:text-white">{title}</h3>
-                <p className="text-gray-600 text-sm dark: text-white/80">{description}</p>
+                <p className="text-gray-800 text-sm dark:text-white/80">{description}</p>
               </motion.li>
             ))}
           </motion.ul>

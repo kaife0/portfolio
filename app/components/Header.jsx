@@ -24,7 +24,7 @@ const Header = () => {
       whileInView={{y: 0, opacity: 1}}
       transition={{duration: 0.6, delay: 0.3}}
       className="flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo">
-        Hi! I'm Amit Singh
+        Hi! I'm Md kaif
         <Image
           src={assets.hand_icon}
           alt="Hand Icon"
@@ -76,7 +76,7 @@ const Header = () => {
           initial={{y:-30, opacity: 0}}
           whileInView={{y: 0, opacity: 1}}
           transition={{duration: 0.6, delay: 1.2}}
-          href="/amit-cv.pdf"
+          href="/CV_kaif.pdf"
           download
           className="px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white dark:text-black"
         >

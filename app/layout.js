@@ -12,9 +12,9 @@ const ovo = Ovo({
 });
 
 export const metadata = {
-  title: "Portfolio - GreatStack",
+  title: "kaif's Portfolio ",
   description:
-    "Showcasing the portfolio of GreatStack with cutting-edge designs.",
+    "Showcasing the portfolio of Md Kaif , his projects and web design",
 };
 
 export default function RootLayout({ children }) {
