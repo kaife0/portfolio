@@ -82,29 +82,57 @@ export const workData = [
     description: "Food Delivery website",
     bgImage: "/work-3.png",
     link: "https://yourfoodpartner.netlify.app/",
-
-
+    featured: false
   },
   {
     title: "Frontend project",
     description: "Day planner",
     bgImage: "/work-2.png",
     link: "https://ktaskplanner.netlify.app/",
-    
+    featured: false
   },
   {
-    title: "web design",
+    title: "Web design",
     description: "Tic Tac Toe game",
     bgImage: "/work-4.png",
     link: "https://mygamereactjs.netlify.app/",
+    featured: false
   },
   {
-    title: "frontend project",
+    title: "Frontend project",
     description: "Shopping list",
     bgImage: "/work-1.png",
     link: "https://mygroceryplanner.netlify.app/",
+    featured: false
   },
-
+  {
+    title: "Full-stack project",
+    description: "Blog creating website",
+    bgImage: "/blog.png", // Replace with actual image
+    link: "https://blog-website-umber-one.vercel.app/", // Replace with actual link
+    featured: true
+  },
+  {
+    title: "Data visualization",
+    description: "Personal finance visualizer",
+    bgImage: "/finance.png", // Replace with actual image
+    link: "https://trackf.netlify.app/", // Replace with actual link
+    featured: true
+  },
+  {
+    title: "Frontend project",
+    description: "SoftSell for software licenses",
+    bgImage: "/softsell.png", // Replace with actual image
+    link: "https://mysoftsell.netlify.app/", // Replace with actual link
+    featured: true
+  },
+  {
+    title: "Web application",
+    description: "Personal goal tracker",
+    bgImage: "/goalTrack.png", // Replace with actual image
+    link: "https://daily1track.netlify.app/", // Replace with actual link
+    featured: true
+  }
 ];
 
 export const serviceData = [

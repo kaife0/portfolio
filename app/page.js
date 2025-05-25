@@ -13,11 +13,14 @@ export default function Home() {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   useEffect(()=>{
-      if(localStorage.theme === "dark" || (!("theme" in localStorage)&& window.matchMedia("(prefers-color-scheme dark)").matches)) {
-      setIsDarkMode(false)
-      }else{
-
+    // Check if we're in the browser environment
+    if (typeof window !== "undefined") {
+      if(localStorage.theme === "dark" || (!("theme" in localStorage) && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+        setIsDarkMode(true);
+      } else {
+        setIsDarkMode(false);
       }
+    }
   },[])
 
   useEffect(()=>{
