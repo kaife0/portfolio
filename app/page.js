@@ -8,7 +8,7 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import { useEffect, useState } from "react";
 
-export default function Home() {
+export default function Home() { 
 
   const [isDarkMode, setIsDarkMode] = useState(false);
 
