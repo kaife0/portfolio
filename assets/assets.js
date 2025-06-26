@@ -117,7 +117,7 @@ export const workData = [
     description: "Personal finance visualizer",
     bgImage: "/finance.png", // Replace with actual image
     link: "https://trackf.netlify.app/", // Replace with actual link
-    featured: true
+    featured: false
   },
   {
     title: "Frontend project",
@@ -131,6 +131,20 @@ export const workData = [
     description: "Personal goal tracker",
     bgImage: "/goalTrack.png", // Replace with actual image
     link: "https://daily1track.netlify.app/", // Replace with actual link
+    featured: true
+  },
+  {
+    title: "Frontend project",
+    description: "Shopping items manager",
+    bgImage: "/shopping_items.png",
+    link: "https://amrrtech.netlify.app/",
+    featured: false
+  },
+  {
+    title: "Full-stack application",
+    description: "Video frame extractor",
+    bgImage: "/frames_extractor.png",
+    link: "https://frameer.netlify.app/",
     featured: true
   }
 ];
